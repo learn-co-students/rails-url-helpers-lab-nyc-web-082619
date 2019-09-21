@@ -1,0 +1,2 @@
+      invoke  active_record
+    conflict    db/migrate/20190919211442_add_active_status_to_student.rb
