@@ -1,0 +1,12 @@
+<p> Status: </p>
+<% if @student.active %>
+    <%= "Active" %>
+<% else %>
+    <%= "Inactive" %>
+<% end %>
+
+<h3> Update Status </h3>
+
+<form action="/students" method="POST">
+    <input type="submit" value="change status">
+</form>
